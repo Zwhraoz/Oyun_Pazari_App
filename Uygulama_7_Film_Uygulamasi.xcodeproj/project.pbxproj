@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		661E67BD2BED50670060F72F /* Uygulama_7_Film_UygulamasiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E67BC2BED50670060F72F /* Uygulama_7_Film_UygulamasiApp.swift */; };
+		661E67BD2BED50670060F72F /* Uygulama_7_Oyun_UygulamasiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E67BC2BED50670060F72F /* Uygulama_7_Oyun_UygulamasiApp.swift */; };
 		661E67BF2BED50670060F72F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E67BE2BED50670060F72F /* ContentView.swift */; };
 		661E67C12BED50690060F72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661E67C02BED50690060F72F /* Assets.xcassets */; };
 		661E67C42BED50690060F72F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661E67C32BED50690060F72F /* Preview Assets.xcassets */; };
+		661E67CB2BED50C70060F72F /* Oyun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E67CA2BED50C70060F72F /* Oyun.swift */; };
+		661E67CD2BED521D0060F72F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E67CC2BED521D0060F72F /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		661E67B92BED50670060F72F /* Uygulama_7_Film_Uygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uygulama_7_Film_Uygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		661E67BC2BED50670060F72F /* Uygulama_7_Film_UygulamasiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uygulama_7_Film_UygulamasiApp.swift; sourceTree = "<group>"; };
+		661E67B92BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uygulama_7_Oyun_Uygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661E67BC2BED50670060F72F /* Uygulama_7_Oyun_UygulamasiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uygulama_7_Oyun_UygulamasiApp.swift; sourceTree = "<group>"; };
 		661E67BE2BED50670060F72F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		661E67C02BED50690060F72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		661E67C32BED50690060F72F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		661E67CA2BED50C70060F72F /* Oyun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oyun.swift; sourceTree = "<group>"; };
+		661E67CC2BED521D0060F72F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		661E67B02BED50670060F72F = {
 			isa = PBXGroup;
 			children = (
-				661E67BB2BED50670060F72F /* Uygulama_7_Film_Uygulamasi */,
+				661E67BB2BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi */,
 				661E67BA2BED50670060F72F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,22 @@
 		661E67BA2BED50670060F72F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				661E67B92BED50670060F72F /* Uygulama_7_Film_Uygulamasi.app */,
+				661E67B92BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		661E67BB2BED50670060F72F /* Uygulama_7_Film_Uygulamasi */ = {
+		661E67BB2BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi */ = {
 			isa = PBXGroup;
 			children = (
-				661E67BC2BED50670060F72F /* Uygulama_7_Film_UygulamasiApp.swift */,
+				661E67BC2BED50670060F72F /* Uygulama_7_Oyun_UygulamasiApp.swift */,
 				661E67BE2BED50670060F72F /* ContentView.swift */,
+				661E67CA2BED50C70060F72F /* Oyun.swift */,
+				661E67CC2BED521D0060F72F /* Home.swift */,
 				661E67C02BED50690060F72F /* Assets.xcassets */,
 				661E67C22BED50690060F72F /* Preview Content */,
 			);
-			path = Uygulama_7_Film_Uygulamasi;
+			path = Uygulama_7_Oyun_Uygulamasi;
 			sourceTree = "<group>";
 		};
 		661E67C22BED50690060F72F /* Preview Content */ = {
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		661E67B82BED50670060F72F /* Uygulama_7_Film_Uygulamasi */ = {
+		661E67B82BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 661E67C72BED50690060F72F /* Build configuration list for PBXNativeTarget "Uygulama_7_Film_Uygulamasi" */;
+			buildConfigurationList = 661E67C72BED50690060F72F /* Build configuration list for PBXNativeTarget "Uygulama_7_Oyun_Uygulamasi" */;
 			buildPhases = (
 				661E67B52BED50670060F72F /* Sources */,
 				661E67B62BED50670060F72F /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Uygulama_7_Film_Uygulamasi;
+			name = Uygulama_7_Oyun_Uygulamasi;
 			productName = Uygulama_7_Film_Uygulamasi;
-			productReference = 661E67B92BED50670060F72F /* Uygulama_7_Film_Uygulamasi.app */;
+			productReference = 661E67B92BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				661E67B82BED50670060F72F /* Uygulama_7_Film_Uygulamasi */,
+				661E67B82BED50670060F72F /* Uygulama_7_Oyun_Uygulamasi */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				661E67BF2BED50670060F72F /* ContentView.swift in Sources */,
-				661E67BD2BED50670060F72F /* Uygulama_7_Film_UygulamasiApp.swift in Sources */,
+				661E67CB2BED50C70060F72F /* Oyun.swift in Sources */,
+				661E67CD2BED521D0060F72F /* Home.swift in Sources */,
+				661E67BD2BED50670060F72F /* Uygulama_7_Oyun_UygulamasiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Uygulama_7_Film_Uygulamasi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Uygulama_7_Oyun_Uygulamasi/Preview Content\"";
 				DEVELOPMENT_TEAM = R338997M5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Uygulama_7_Film_Uygulamasi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Uygulama_7_Oyun_Uygulamasi/Preview Content\"";
 				DEVELOPMENT_TEAM = R338997M5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -334,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		661E67C72BED50690060F72F /* Build configuration list for PBXNativeTarget "Uygulama_7_Film_Uygulamasi" */ = {
+		661E67C72BED50690060F72F /* Build configuration list for PBXNativeTarget "Uygulama_7_Oyun_Uygulamasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				661E67C82BED50690060F72F /* Debug */,
